@@ -1,0 +1,618 @@
+#NEXUS
+
+BEGIN TAXA;
+    DIMENSIONS NTAX=303;
+    TAXLABELS
+        'Hypochrosis baenzigeri Inoue, 1982'
+[&squid=9c9037645ad45b814d06488b5234021f53c3ab1012a54197dda1f1f9ac54c5c1,taxon_key=6133575]
+        'Nadagara vagaia Walker, 1862'
+[&squid=0f934e829588fc4b1e5f151c9acfe8a07d247a5c073cfea2a3673f7be7244a8f,taxon_key=6133615]
+        'Doratoptera virescens Marumo, 1920'
+[&squid=1999a6ccb334f8314aab569153364b793a6cdff816f6f761619f1b1b0e54c1a4,taxon_key=6133617]
+        'Comibaena subdelicata Inoue, 1985'
+[&squid=c19854ee4460d9c0e0f904c318e54af9dceec37b99630e7ef578e606a611f77b,taxon_key=6133597]
+        'Comibaena argentataria Leech, 1897'
+[&squid=f48e27e52e908e3bdfeafaaf679639b338c690d2cbd6143d9d2ca997f0422d5b,taxon_key=6133598]
+        'Paramaxates taiwana Yazaki, 1988'
+[&squid=4674f9346ba807f0e6566331d6bf90d71ea3d6363c0d5751b77f615964e4df2f,taxon_key=6133600]
+        'Pareclipsis serrulata (Wehrli, 1937)'
+[&squid=378093d1e7a20cbef1a6e96146611ba2f976b16897a6a5a19e43016d25793e96,taxon_key=6133585]
+        'Hypochrosis rufescens (Bulter, 1880)'
+[&squid=3a23078373e8ad0470f627a7f8eaeda2dee266da0fd9acb3901138feed16923a,taxon_key=6133576]
+        'Luxiaria obliquata Moore, 1888'
+[&squid=dc1003127ee4bf04b285b1eb6bb591cf15f330da296d9435aef98ee0b6d51be3,taxon_key=6133582]
+        'Eupithecia tenuisquama Warren, 1896'
+[&squid=7d09da69685f3c1aed029c683bb18189875facade513fde0d898628937b26990,taxon_key=1984036]
+        'Dysstroma calamistrata Moore, 1867'
+[&squid=c4b4e157130e57a048e5dae64b59ae0f31a93f05d7614d31a6d70f025383db0e,taxon_key=1962442]
+        'Dysstroma fumata Bastelberger, 1911'
+[&squid=583f35a00a53857887902f490cb49a79fd3b4f0f49ec901868740afefb701d76,taxon_key=1962447]
+        'Dysstroma dentifera Warren, 1896'
+[&squid=fd0255c3cd3ba3a411ee622711f9200ba2e81114dbe21651b5be3b1ec105891f,taxon_key=1962491]
+        'Dysstroma cinereata Moore, 1867'
+[&squid=f9178aeaa2f54c3361fb39f5ad4a6b1ea7438e8af2a27f311fed7c728742494c,taxon_key=1962509]
+        'Xanthorhoe saturata Guenée, 1857'
+[&squid=04cb07a71d2dea7276810293a7a9f7d5063e003917bc77936202eb2c997458b0,taxon_key=1986508]
+        'Xanthorhoe mediofascia Wileman, 1915'
+[&squid=b2cd518d3944fb2de01f5eaec78145aa5c1b4910de0029179b3c221635c40359,taxon_key=1986351]
+        'Ecliptopera rectilinea Warren, 1894'
+[&squid=2ccdd99d15a80e46634ba20416fac26100d68b8b38887c19797eb60f1163a9fc,taxon_key=1978385]
+        'Ecliptopera delecta Butler, 1880'
+[&squid=816c580abfad9d0371533323cde04d95bc6a970f14ed881a6fc3625cbfdbf6db,taxon_key=1978405]
+        'Ecliptopera dimita Prout, 1938'
+[&squid=cc67e6886d07eb21c235d1ec600f7fa8d1389c0941e86a2787b9e4e3471edcf6,taxon_key=1978370]
+        'Ecliptopera benigna Prout, 1914'
+[&squid=1567709c4546d8bd95d0cb2cfaaea8d49ae039effd07782bb6af892bace0044e,taxon_key=1978398]
+        'Ecliptopera muscicolor Moore, 1888'
+[&squid=647c2cf9b9c87a1642bd1de489e4bd0af2c0e647f760cf97685d04ff8ef5ce0e,taxon_key=1978424]
+        'Ecliptopera umbrosaria Motschulsky, 1861'
+[&squid=0e340f4820cd4d83882f981eec486b102e5a194f1272f3ab2c4c740e9c0d566b,taxon_key=1978422]
+        'Eustroma melancholica Butler, 1878'
+[&squid=1e15306d06ac34c412359e5d9220088e9061238bd21648c624f8de32008f4643,taxon_key=5149308]
+        'Electrophaes taiwana Inoue, 1986'
+[&squid=b1a3b527b2dc4a80a1131c17407fbbb3fbbcb2764e88f5d760d248f25b9b77d1,taxon_key=1976161]
+        'Electrophaes zaphenges Prout, 1940'
+[&squid=4bbfb416e9be94855c8e742da193009325d02bea073276a6f43117245f0ad088,taxon_key=1976196]
+        'Electrophaes fervidaria Leech, 1897'
+[&squid=396922c1924a0ce187c179773c3de34b26550d81ae1bddab6a7939778e59a545,taxon_key=1976200]
+        'Melanthia catenaria Moore, 1971'
+[&squid=f716c974a756f840e05fd128bd1e86bdccc9da6c25498763082e3d7fb412e448,taxon_key=1956536]
+        'Melanthia procellata Schiffermüller, 1775'
+[&squid=b233b75e92c17ada9a75b4cec72661520ac1b1845c7ae477ef47cb10429b9968,taxon_key=1956524]
+        'Chloroclystis blanda Bastelberger, 1911'
+[&squid=b0e2928de7e8d8e05b445207b71036ce71c6ae668e58a213ed4655996999b5bc,taxon_key=1989393]
+        'Chloroclystis trichophora Hampson, 1895'
+[&squid=6ccdf60fc93b0d200d1018fd15b7d27cc85d70e5191757f62af4f68b3406dd4c,taxon_key=1989521]
+        'Chloroclystis rubroviridis Warren, 1896'
+[&squid=0b03a0c6e00efa8ea49d39b93f1a3eb0cae441cd671f0bc68b4378773178dad5,taxon_key=1989355]
+        'Collix stellata Warren, 1894'
+[&squid=6bc5698bf92f5a45c50de35b3f8524929bc7dcafc659696270559d4e83e6947f,taxon_key=1954891]
+        'Collix ghosha Walker, 1862'
+[&squid=4481c6134ac98b1d3c3cf3bf14bbc54be79f79969ecf3b59da7b89247c1496f0,taxon_key=1954911]
+        'Photoscotosia miniosata Walker, 1862'
+[&squid=64fb4e4030afcd136f2cd9ecacb18e5960e535461e18ce586d8c8ee3cc12f554,taxon_key=1981843]
+        'Photoscotosia insularis Bastelberger, 1909'
+[&squid=c9400d1031274f206f82143bf1af4ad4f296785ecc352453d57019033c04cfae,taxon_key=1981807]
+        'Chartographa fabiolaria Oberthür, 1884'
+[&squid=f08bb1a7cf260855a95bfe4d6021f526cf6cc67aca3b436c19575e132bc4cd76,taxon_key=1963831]
+        'Chartographa convexa Wileman, 1912'
+[&squid=421ff7491ba4341d2661fd5669a75d9f97544fcf52091e2533774730988e4496,taxon_key=1963827]
+        'Asthena undulata Wileman, 1915'
+[&squid=43a5d20348bd4ba918fb83bdb2778f07043ecd332497d44f35b299ddfd7958ed,taxon_key=1987740]
+        'Sauris interruptata Moore, 1888'
+[&squid=92c1b0c9963726c85a55db13d0a623c3b9d7458079a7cbe223bdf1feb5be2ad9,taxon_key=1986721]
+        'Gymnoscelis tristrigosa Butler, 1880'
+[&squid=63dd4112c66a6d7abfd78f17be60fa4b27d0a7db2e7cc30672f0c6ec71c73bea,taxon_key=5149986]
+        'Hydrelia bicolorata Moore, 1867'
+[&squid=a7bf93eff6fa601feb83c4d0f8adb80f878da41f001cd2e5ec889834d6b13838,taxon_key=5146303]
+        'Epilobophora venipicta Wileman, 1914'
+[&squid=411713738a08eae8a7069136c2a410da1c92f3bfca5b12531d3d0e99933658f2,taxon_key=1990206]
+        'Evecliptopera decurrens Moore, 1888'
+[&squid=caf2901e9a1bb9de3108072e8719c96215f415a809f612c9e8b91e7c614a3a74,taxon_key=1981746]
+        'Lobogonodes complicata Butler, 1879'
+[&squid=35f8eb5ade1a357a85a4a78687d45fe5807088aff2f4f6e50f52029e07f286c7,taxon_key=1979086]
+        'Gandaritis sinicaria Leech, 1897'
+[&squid=dd50fb0cdf5dcd2c5c3ea8e0a22feb17c5402de8eb5d960c6f29a44d285df507,taxon_key=1960018]
+        'Cosmorhoe chalybearia Moore, 1867'
+[&squid=33fe4fa928b347e696fc01e31ec84b9ebebebce8c279a10ab0f894923ddb35f5,taxon_key=1970188]
+        'Tyloptera bella Butler, 1878'
+[&squid=34fa0b23491c4c1c889e1559287f54a6b788bcc5af073afce0a75717e5faa6fb,taxon_key=1988225]
+        'Ziridava kanshireiensis Prout, 1958'
+[&squid=83c234b800575e56ffd7545f0cc7ab1579753c9797e1350f9d21730bd39a1df0,taxon_key=1987204]
+        'Telenomeuta punctimarginaria Leech, 1891'
+[&squid=fab67b22f90274beee23acd4752e6feb0ffe337eed3ec4647028d8f465debc9a,taxon_key=1977297]
+        'Scopula nigropunctata Hufnagel, 1767'
+[&squid=b6c1ab2c0a7a159fb3fe5069fc99b2238f15a2293f643f4a7476fed2f576f9b7,taxon_key=5144677]
+        'Scopula ornata Scopoli, 1793'
+[&squid=cdde14d978923651511255fe831a093df4bcf783bef383da84e5a483056148e3,taxon_key=5144805]
+        'Scopula formosana Prout, 1934'
+[&squid=898ae959cdc75551e2fd6596303ee06a6074ad96af69b06f3378a8fd7116cff5,taxon_key=5145114]
+        'Scopula mecysma Swinhoe, 1894'
+[&squid=93a1e8ec034c0a700540e8366d4565228c05a91be5b7054a29669cc6a0cb7f16,taxon_key=5145735]
+        'Idaea remissa Wileman, 1911'
+[&squid=7edb586aa3dec3209eae1e7c0896db599b73043b79a9e2567a2b4311d14249cf,taxon_key=5146907]
+        'Idaea sugillata Bastelberger, 1911'
+[&squid=6b66e57ec496ab9a892b6917fc1523071f0c7cfd86ae402c45bc36254050d64a,taxon_key=5146567]
+        'Timandra convectaria Walker, 1861'
+[&squid=1b469fb42832b179f7878a1b6f484674b42dbce100a04bf3e978772aa73edc7f,taxon_key=5144431]
+        'Timandra extremaria Walker, 1861'
+[&squid=1014b4ebd82a47fb0e48a6683e5f725ea83d9ddc39ce2cbb0f3ee6ab7f7c9d77,taxon_key=5144435]
+        'Anisodes absconditaria Walker, 1862'
+[&squid=dc92aa33500e102205711ad96da6dcdcce2ac73c150b2b35e9048f9d8f33f669,taxon_key=1966683]
+        'Anisodes effeminata Prout, 1914'
+[&squid=42c1382e55a49ccfa5b7b6202a96e5917483b54b2a73cc2c135f33f7750908bf,taxon_key=1966506]
+        'Zythos avellanea Prout, 1932'
+[&squid=584201d262c485f3a3115ba4307ef8b5768c595f7ad5d27ecdab8f49ceeb3df7,taxon_key=1988257]
+        'Palaeaspilates ocularia Fabricius, 1775'
+[&squid=bc268e1bb5ad092ca783b433e8aa9c16be6004f5855094a2143efdc24abbbefe,taxon_key=1959846]
+        'Problepsis albidior Warren, 1899'
+[&squid=d081d2c2aff001b9da09cf9d0e0763d0cd751f8c4a88169d84e4196e5bf6499c,taxon_key=5144093]
+        'Chrysocraspeda sanguinea Warren, 1896'
+[&squid=60edd52e404921ddc682c5fb1b2a8561a068b8618f86658768797bbf426143cc,taxon_key=1972754]
+        'Rhodostrophia bisinuata Warren, 1895'
+[&squid=820f618970c06ce1b4f13e52d4833139a9b7fed6ef5a871f5b8632bf52bd9158,taxon_key=1967039]
+        'Somatina plynusaria Walker, 1862'
+[&squid=ce9e85a5ad461997105857641b34cd8ab31f61a5899fcc0ed36c79f18f53f9e4,taxon_key=1968730]
+        'Lomographa marginata Wileman, 1914'
+[&squid=ace96dc7f135faa74fb70818dda9cadc36ac5d8029a494c47db97993aa57381e,taxon_key=1986070]
+        'Lomographa claripennis Inoue, 1977'
+[&squid=969c19198e7b26b27a2e784f3f476f067e73ce7351c11788114c97356918a696,taxon_key=1986009]
+        'Lomographa anoxys Wehrli, 1936'
+[&squid=6199802deb3bbff853c0ba0b6b95aef11caaa58067a2c689f4980611af715881,taxon_key=1985993]
+        'Lomographa margarita Moore, 1867'
+[&squid=0c3e87afb269e7b8efed951d28c379d20a24e0fc3dfb96e8776fa66bc477e6c1,taxon_key=1986061]
+        'Lomographa inamata Walker, 1861'
+[&squid=368195d8358fd218cc5adb46e4818de65435cae676fc0e179460f01dc61b2132,taxon_key=1986054]
+        'Eumelea ludovicata Guenée, 1858'
+[&squid=03aa1ca8d4af98209153c09726665e3834dcc5a900742647315c1ff054c0c8af,taxon_key=1957368]
+        'Derambila satelliata Walker, 1866'
+[&squid=b8d9f564e99da94bfe73f28a6ab758ed0caa367653d623d61db59e4fb2ca00a2,taxon_key=1988436]
+        'Ozola defectata Inoue, 1971'
+[&squid=b98fc62a526254721d6e7b59f3a6d526831cc4013a445b4ddd561b2726737c03,taxon_key=1956358]
+        'Thinopteryx crocoptera Kollar, 1844'
+[&squid=723ec7d86d9cd2c9343b816182f4faa1d0d0ad0c6923434285f7e6f5519a7c5f,taxon_key=1977184]
+        'Thinopteryx nebulosa Butler, 1883'
+[&squid=2365fca5d7a279ee838dc4589de581c98f2e6163c8d682f5c5b9c756cd51dcfb,taxon_key=1977182]
+        'Arichanna sinica Wehrli, 1933'
+[&squid=d4ece2bd2c0ceb4077ebab43e6041981605a8b176a01f85dfc2df7baf37b5fdf,taxon_key=1979806]
+        'Arichanna picaria Wileman, 1910'
+[&squid=b97bdde5e091c558d6d3e11839b4505530eed5d8d89aa761634f71962ff89ffc,taxon_key=1979801]
+        'Arichanna fumigata Bastelberger, 1909'
+[&squid=d4cfc7eadef7e1a9659d2f8ca031471dbbe90e68c9ef362d5a0145cea8d3fed7,taxon_key=1979822]
+        'Arichanna albomacularia Leech, 1915'
+[&squid=51d3bdf206fb6f0b5faecd79ab0e47ff4d4bf39517e9c80989b3765ab7adf823,taxon_key=1979788]
+        'Arichanna pryeraria Leech, 1891'
+[&squid=afd7b858661d2dbeebc79d7596d521efaeee5b8b0adf3acc2e2144a260200b41,taxon_key=1979758]
+        'Arichanna postflava Wileman, 1914'
+[&squid=7c99c457e897519a77985b7375e7bd2297fef29e423df37620a78df0b49a9431,taxon_key=1979769]
+        'Arichanna amoena Bastelberger, 1911'
+[&squid=8c658ea6b7960604935119370efcc84e61a2e0bb896a3057386357ec42684cbb,taxon_key=1979763]
+        'Alcis nubeculosa Bastelberger, 1909'
+[&squid=5380ed2bf59b6d70100a909d63d0949d7074d4a4e91115fc7c3e7c7a085db346,taxon_key=5143336]
+        'Alcis scortea Bastelberger, 1909'
+[&squid=26a40177d6eee38433a4336719e5b50ac6b5cefd304cd02a3ffaa9a30c1e467e,taxon_key=5143575]
+        'Alcis extinctaria Eversmann, 1851'
+[&squid=5576a74694d6fb792948c7a14fe5a6e91a2ccb4bb3ed717d0b6889ff2ae82fb7,taxon_key=5143560]
+        'Alcis picata Butler, 1881'
+[&squid=92a1f0ce7fc7b113b64df39d3f38992c5aa14328318b63932b53e83c9766f9a4,taxon_key=5143523]
+        'Alcis rimosaria Wileman, 1911'
+[&squid=66aaf07bf01a1aa8ef2b8ad76818fb3306e8625db6268fe4de05f5d215a080bb,taxon_key=5143447]
+        'Alcis ochrolaria Bastelberger, 1909'
+[&squid=df1c2c798b13da916e14d06bb9f200bea1ee8b2db9653015ee3caa3baa349b31,taxon_key=5143506]
+        'Alcis maculata Staudinger, 1892'
+[&squid=8599fe767225b034b54ece82cf6b8c4c0523a24ac58afe1f694c2dcd97cbc307,taxon_key=5143384]
+        'Alcis admissaria Guenée, 1858'
+[&squid=52c4916d71fd518151958a3fca44577b94eb4addfb4a8ef78d219c99bcf1e6a8,taxon_key=5143354]
+        'Alcis postlurida Inoue, 1978'
+[&squid=1804ebc7342a2f811f7faada4b64c1a01feb020189eea06649e1251a1c89b3f1,taxon_key=5143433]
+        'Alcis semiusta Bastelberger, 1909'
+[&squid=d51cce01c40503a994f721464bb23de5d754e5f5309b733733b04fbb2e815065,taxon_key=5143525]
+        'Hyposidra talaca Walker, 1860'
+[&squid=54f73cda19dda551f9758f049b6f8c2a0095cd6d19b3400f3d7c77c9dd52307c,taxon_key=1958454]
+        'Hyposidra infixaria Walker, 1860'
+[&squid=989f8cd0a313c5239bb808fd677911dbd9112f84a2281066bd7e1e825428a792,taxon_key=1958463]
+        'Hyposidra aquilaria Walker, 1862'
+[&squid=ede23c9ad5ba74003528b6c37c0649c4a2e3cf4f05e79def7e12ca24ad3ab844,taxon_key=1958483]
+        'Semiothisa pluviata Fabricius, 1795'
+[&squid=6ce02aa59c7f6166b66d8880daf157548705f8926a9fe683a0614b77881038f7,taxon_key=1958584]
+        'Semiothisa inchoata Walker, 1861'
+[&squid=974da406304a321bd27393e092277fe91260c6b3f50cbff2d09583fef383b97f,taxon_key=1959162]
+        'Semiothisa perfusaria Walker, 1866'
+[&squid=ca6782f3cf21aafeb2d1dfa4f78fbafdd6617383705ec6a4ea25c742729f275e,taxon_key=1958816]
+        'Semiothisa intermediaria Leech, 1897'
+[&squid=3ccc5227b3899c0b91a2ddcdafff1f3f0f6e9c0ee73d229cc8ac8a8921d7f0e5,taxon_key=1959003]
+        'Semiothisa emersaria Walker, 1861'
+[&squid=bd3337ae40e67d32132cde7c92e58de14f2a23f3e98a4cf3ed6eb09373399829,taxon_key=1958600]
+        'Cleora contiguata Moore, 1867'
+[&squid=1e45a576c430ce322ae00ab9a85b365b103684527c172120d59ea014c9397cc0,taxon_key=5148043]
+        'Cleora fraterna Moore, 1888'
+[&squid=b466f55f7d1e6f7d49f34896e40e502b5d8d5dc2113581cef3ceccdaf6c7440e,taxon_key=5147968]
+        'Cleora alienaria Walker, 1860'
+[&squid=eaa93e5d49b7eb9e3f80a098ddeb4a09c5ad1e4a1a291f17fef8bdca05f38dae,taxon_key=5148055]
+        'Cleora leucophaea Butler, 1878'
+[&squid=09a41ac60b6f20206828bb7d9c0b56bdca561301406237b174a844618e3cb675,taxon_key=5148115]
+        'Cleora repulsaria Walker, 1860'
+[&squid=343a0d30b7e83869686d8f8349d92e708d29e46be78f257f9ae365877e41139b,taxon_key=5148074]
+        'Serraca punctinalis Scopoli, 1763'
+[&squid=c1185c8915cc546eca35d59736a3d3ee13779018c912674423083a48c3c712a4,taxon_key=1987415]
+        'Hypomecis oblivia Prout, 1925'
+[&squid=560e9ec88c0e6cb88e6f429c7ebfd6e9a065d78448f651230514f6d833d900a2,taxon_key=1978512]
+        'Odontopera bilinearia Swinhoe, 1889'
+[&squid=605e9269ac2af477050ca54e57afeba98f59db81b2f8d35447c461136afa4b23,taxon_key=1990043]
+        'Odontopera albiguttulata Bastelberger, 1909'
+[&squid=483fe80f17d84b7019c64061f05b7c98abd2df3687483caf5153b5e455296edf,taxon_key=1990088]
+        'Odontopera insulata Bastelberger, 1909'
+[&squid=c8cf5d80158ee0f134361d3a3b65bc36faf283995577345056f7bd24ebf182ca,taxon_key=1990105]
+        'Xandrames dholaria Moore, 1868'
+[&squid=e856b240d8e4af72689ccc71b9ea67e9949d86acc6da3dfbfd8aae281f37f269,taxon_key=1975805]
+        'Xandrames latiferaria Walker, 1860'
+[&squid=f5bfb37abf5c01005ca234079b19a88f3634622fdbb7ad5bc31cc726b221a3e6,taxon_key=1975806]
+        'Ectropis bhurmitra Walker, 1860'
+[&squid=6a0a8d18612286388bf96a6f5ad5628464cc9053368b4c9552c67d237c9c8bae,taxon_key=1980827]
+        'Ectropis arizanensis Wileman, 1915'
+[&squid=96ad6b7131e2ac52e331782e22856a6704097eaf004b1886cc679ed380ef3cd1,taxon_key=1980917]
+        'Ectropis excellens Butler, 1884'
+[&squid=2d4b12501e80c2bb9f436b458289575500be8d62d6a956fd4a7e2afe09ceb95a,taxon_key=1980811]
+        'Abraxas cupreilluminata Inoue, 1984'
+[&squid=4114f5c3c328a54d17eaad3c614eaf9160fff51233fa08ee4e7c63c0c8b31d9b,taxon_key=1968046]
+        'Abraxas adilluminata Inoue, 1984'
+[&squid=7e1101c6ec376cd0b341a3b4b83edb1c46b22841a5d992e6245fe1b43dbf9288,taxon_key=1967914]
+        'Abraxas consputa Bastelberger, 1909'
+[&squid=44096821b04b3a701f1f85b30423054f203f320180d6e0ae2cc7ea4fc6c951b2,taxon_key=1967779]
+        'Abraxas taiwanensis Inoue, 1984'
+[&squid=586b6745af480d8ef34a5f4251451cce729c7a195ddf11ca544ebe78b7335216,taxon_key=1967982]
+        'Abraxas persimplex Inoue, 1984'
+[&squid=f4984bb3d8d656662368135db4be073f35282389b002984be240f049223381a9,taxon_key=1967970]
+        'Abraxas placata Inoue, 1984'
+[&squid=f1d6761ef85bfef610400453f01315252b0af1062ab90ec36b4044b47724a5b0,taxon_key=1967886]
+        'Abraxas formosilluminata Inoue, 1984'
+[&squid=cbfdcdc810c73b6f2b6dba21b62f305f9adab960f485700389cbe3058dd46387,taxon_key=1968013]
+        'Luxiaria mitorrhaphes Prout, 1925'
+[&squid=96e1e0fca725048698b625dc772a504a60f10d8a7cc338ff05bddb1ab6f0c5d3,taxon_key=1977863]
+        'Luxiaria amasa Butler, 1878'
+[&squid=93b5eb510926f8379f3b11e567531e1da240e01c74a22df1db5491cffcc6318e,taxon_key=1977833]
+        'Luxiaria costinota Inoue, 1978'
+[&squid=370ebc1261bfba2cae7c738d018b439b1243e434aa499398a6ae0e99b75d1358,taxon_key=1977837]
+        'Luxiaria postvittata Walker, 1861'
+[&squid=22a0c8c095b859d362fbcfac6b1c7df4165891626391306c41d646870b6bf51a,taxon_key=1977843]
+        'Ourapteryx clara Butler, 1880'
+[&squid=323d2d50601a1135e0bc52c559a4a2b8a9d6a9d4b06311a0c4ce3a39d62f7231,taxon_key=1958305]
+        'Ourapteryx caecata Bastelberger, 1911'
+[&squid=e2072ba5f08a4253f06b896a03a9434bf671155a73c9496767fc211dafb76ce3,taxon_key=1958255]
+        'Ourapteryx pallidula Inoue, 1985'
+[&squid=4bf4e47f6b68f1e83011a4ca87364a058a226008bfe9221d87271aedfbba22bc,taxon_key=1958259]
+        'Ourapteryx inspersa Wileman, 1912'
+[&squid=6e9b3168aa93c861f2c0e9508133ebed36884deb4191e6343d6595f2c031d1e7,taxon_key=1958282]
+        'Ourapteryx ramosa Wileman, 1910'
+[&squid=f9c93345c680ab9b5ac9130eb3893304ca5b512f065b6644cac23798880bc552,taxon_key=1958260]
+        'Ourapteryx monticola Inoue, 1986'
+[&squid=0584c3e1462f65db1b2948dbf6070f744d0175e34df700db74db3bf43e159209,taxon_key=1958262]
+        'Ourapteryx taiwana Wileman, 1910'
+[&squid=34d1333fb3b859575379959cf21ee08e853bcd2a06411b90d7b61050f9482fe3,taxon_key=1958328]
+        'Ourapteryx changi Inoue, 1985'
+[&squid=7a279eb2c4fb7e42f6c5cbdbc2a04dc601294472436d654f5d630b0d7c30408b,taxon_key=1958241]
+        'Ourapteryx variolaria Inoue, 1985'
+[&squid=22e19656956c08048074c811a56d1d53a1593c51956dbd6c8e22ce8818e13fde,taxon_key=1958270]
+        Ourapteryx_yerburii
+[&squid=2d0e9d3f56303a2515891f16d085f190893612032037f3c2c55f4653ab2132a0,taxon_key=6544637]
+        'Ourapteryx sciticaudaria Walker, 1862'
+[&squid=b7b60ea47f212c6ad0e584461560725b5b21c9ff510f168ffcec2a6fa4d78c52,taxon_key=1958290]
+        'Ourapteryx similaria Leech, 1897'
+[&squid=3b00771929028603631b772d0d5ec04e80609c10aa22c9e13917bbd26f09e4e4,taxon_key=1958275]
+        'Synegia estherodes Sato, 1990'
+[&squid=7c1bdca7b0ae37004064c80437de5259ee75fae55bdc9440d5d84c2447550eb4,taxon_key=5734402]
+        'Synegia masuii Sato, 1990'
+[&squid=bb36184ed57db614d67991a0309c37a3e4686e6401ffb21723d15cfc08f092e0,taxon_key=6133539]
+        'Opisthograptis punctilineata Wileman, 1910'
+[&squid=212fcc36c7866b98a498e11e8457ae35a503f07092b51d8e96c5f9b3de300b01,taxon_key=1960595]
+        'Opisthograptis moelleri Warren, 1893'
+[&squid=e57730a08872871a5e6b5e3d2f4d628eeedfaee5cd29c81eddb9a94e5c32c2a0,taxon_key=6133518]
+        'Corymica pryeri Butler, 1878'
+[&squid=4bc1229475944ecfdd4709ea4844c0b79aafe3bd37231b24071edff8d17d1759,taxon_key=1976213]
+        'Corymica arnearia Walker, 1860'
+[&squid=ef867d285991c26b6991679961bcc615cbc2c4d672a1612580fac6442bb30a1a,taxon_key=1976212]
+        'Corymica spatiosa Prout, 1925'
+[&squid=2736f85a73b79086fa339ebb94fed5e0e7a4a3d6b590a72358d9b1f9ca721559,taxon_key=1976224]
+        'Elphos moltrechti Bastelberger, 1909'
+[&squid=62e8db91e89b7bf1716d92cbea7b602b5288e5c62c11d762ed45989d8e45432b,taxon_key=1988862]
+        'Elphos sauteri Prout, 1914'
+[&squid=5f4f8beb23dc8174b7c4babe1f904735fd96949db3bde4a791b14f87f7f9236a,taxon_key=1988865]
+        'Amblychia angeronaria Guenée, 1858'
+[&squid=b79a08fee4dcac8605d461f63c1909f4ba8d179a5b2abec45e421de485dddb4d,taxon_key=1956384]
+        'Menophra anaplagiata Sato, 1984'
+[&squid=76b781118eceb35d9eee08bee812382257336630f33cdcf0a3843d888fe0eea2,taxon_key=5734451]
+        'Menophra nakajimai Sato, 1984'
+[&squid=f2a5eae6ab0149cefcb71e3b7562ef09c1c70e75f7cb6ed2079683582ab2586f,taxon_key=1988033]
+        'Menophra taiwana Wileman, 1910'
+[&squid=fead6338ec0741ea4305f04d9256ce3a563c915eca9b1759e3530221b1242556,taxon_key=1988002]
+        'Menophra humeraria Moore, 1867'
+[&squid=1029bc4c90e39440ef746dcc37cda5936920d01fbea86478b8ed5e7a24541db5,taxon_key=1988027]
+        'Ophthalmitis cordularia Swinhoe, 1893'
+[&squid=783a42f5a62f45f0041024c3061c8c82ad0aa3d65c3d03086ece6bfb7ada7486,taxon_key=1964105]
+        'Ophthalmitis herbidaria Guenée, 1858'
+[&squid=02c215730be0ea230c425de5b232027ca3a381265085e2e19f23f1178a2eef0a,taxon_key=1964116]
+        'Loxaspilates montuosa Inoue, 1983'
+[&squid=482fa0f13da7e39b0e6da7754ee86af54fc77cd681f9b03fb5243354a4713e58,taxon_key=1979229]
+        'Loxaspilates biformata Inoue, 1983'
+[&squid=e6893575151658ab57f9b77f8c03691b0407edad7bfa641bfb604d3378151147,taxon_key=1979233]
+        'Chlorochaeta procumbaria Pryer, 1877'
+[&squid=9fd8fe3e81751b5af6f121875b6451e578c8bc1990c64fd5d74136e2af299a2b,taxon_key=1987901]
+        'Chlorochaeta cassidara Guenée, 1857'
+[&squid=8fc41c5e667e1d09fe5b78dbef87418ce84318dd6a840af96f2f5d4da9e419ed,taxon_key=1987909]
+        'Chlorochaeta delicatior Warren, 1897'
+[&squid=367b6dcda53c69ffea6739529a892ec392b0a4269836a9a0c41e554a902af152,taxon_key=1987973]
+        'Krananda oliveomarginata Swinhoe, 1894'
+[&squid=cbf7565a18b35a3e6e76bf25c1e7c5ebdbe1f482a07330e8cb456be621abb4e4,taxon_key=1964025]
+        'Krananda semihyalina Moore, 1867'
+[&squid=b5ec34c4ec95c16d360fa30c2c9b244d36e0d435b1d7b758cb6e31b13e415f19,taxon_key=1964024]
+        'Obeidia tigrata Guenée, 1857'
+[&squid=4880e8c1989302a47d6963faa8cc981dfc4be8b6e6f077a424e97d3ec024cbc1,taxon_key=1981876]
+        'Obeidia lucifera Swinhoe, 1893'
+[&squid=a51071c7f5e79457e57ca0e272f0f299ac6005358c3a330514d29bb84f1a8f39,taxon_key=1981883]
+        'Obeidia gigantearia Leech, 1897'
+[&squid=4dbfbb3eb3c1295d16c896447ad455542c20100a5f4b30326958fd9c60a8b3b5,taxon_key=1981869]
+        'Discoglypha hampsoni Swinhoe, 1892'
+[&squid=64f3b1a90bc30ddce5de22d312507663f98b2acc548371c1748278414640fa4b,taxon_key=1961127]
+        'Discoglypha locupletata Prout, 1917'
+[&squid=bfbe9897fcd89b0d44951e566d8254d4199f2f03de47f34ae4ccb02a38abc459,taxon_key=1961126]
+        'Heterolocha coccinea Inoue, 1976'
+[&squid=2ac96220a64bbf68779930f8d749eca07a38223ad1f4be4e547371aea1cfb532,taxon_key=5149012]
+        'Heterolocha lilacina Bastelberger, 1909'
+[&squid=0305eb212112e580103b29e2a480fc67feaddbc393514a2fa371d3d4e82da263,taxon_key=5148995]
+        'Heterolocha biplagiata Bastelberger, 1909'
+[&squid=89b6c34d10ad28b5f9b6b22f739bd68f99a8fbfa9c9387bb48a849d0a1d3d596,taxon_key=5149037]
+        'Pseudomiza flava Moore, 1888'
+[&squid=95e25b5b6c0d9daa93ad00e37b110d041a093d735f82dabea4d539f7c9f3996a,taxon_key=1967675]
+        'Pseudomiza aurata Wileman, 1915'
+[&squid=8bc6f2847ca2fa1b8f569e45a93c15f6d5b4ccd6badf4c350f852522bf300f42,taxon_key=1967672]
+        'Percnia cordiforma Inoue, 1978'
+[&squid=9bc89c2a21f0a8b5ebaf3bb51cb8c5ed1bcb93de39713431d1ebf70b812f8e06,taxon_key=1966283]
+        'Percnia giraffata Guenée, 1858'
+[&squid=de708c84e029a22f43e64bb8150b2b691afd70f05ccc426bb35b6252fae1728c,taxon_key=1966288]
+        'Percnia longitermen Prout, 1914'
+[&squid=5cb297e3daa0310ab9ea04e31d91d352612ca8fda14fbc5447a388d046f791f3,taxon_key=1966310]
+        'Percnia luridaria Leech, 1897'
+[&squid=59731d3084a346514bba14ac1cc4332ae909e12930d69940875923726cf44003,taxon_key=1966302]
+        'Terpna iterans Prout, 1926'
+[&squid=43e0808559864667fc4d0669539b97008d5c6ee8c20977b35be22a4e4b38e553,taxon_key=1964502]
+        'Terpna subtrita Prout, 1914'
+[&squid=2029f30e5bd542f1c0a370ae8eef282cd5543a49647e68854580c75cc217b479,taxon_key=1964489]
+        'Medasina parvalbidaria Inoue, 1978'
+[&squid=a160eeb3b739c85203a84a463908a721041e35d9393d02c36d13e948121f37a1,taxon_key=1985116]
+        'Medasina creataria Guenée, 1858'
+[&squid=9a8fe36be03bbcb20c5d8937c8a3c29df2d1e4c37bb8eafcd59522e639ff6b9a,taxon_key=1985068]
+        'Sarcinodes yeni Sommerer, 1996'
+[&squid=b8e9a3da9a301c6b59315a6c36b74e55705ac841509ba3bea680a277038d2f79,taxon_key=1972631]
+        'Sarcinodes carnearia Guenée, 1857'
+[&squid=81db4997845f5b077774a24d8984e8f8b00bc61a42ab7bbf9ef7150b31a38db6,taxon_key=1972614]
+        'Thalassodes antiquadraria Inoue, 1976'
+[&squid=d87407a997310ace9f5cf078e7e682d2f24a259c64b5cf7fa9d000d7e219d667,taxon_key=1964356]
+        'Thalassodes proquadraria Inoue, 1976'
+[&squid=d31026f4f86c95115b932727f5757d224361170c3b2154c018c20826c14ec564,taxon_key=1964323]
+        'Thalassodes immissaria Walker, 1861'
+[&squid=cbc1124e88dfc5bbf251f07d9f964a868348556e89697018817005d0df788ab7,taxon_key=1964316]
+        'Thalassodes subquadraria Inoue, 1976'
+[&squid=690c21f280170c4b1946bf042e1e360534cceb8e1587a0b22fd4a85d3f05ae5f,taxon_key=1964380]
+        'Timandromorpha discolor Warren, 1896'
+[&squid=ece0e7ab7d4f244d58d4d3b9a0681b6d1d838e4b5070d1737b8f086413514c88,taxon_key=1988759]
+        'Timandromorpha enervata Inoue, 1944'
+[&squid=c222acce1887fa6f0be38993dca15f6a1efa115df12c251f54d744a241df7675,taxon_key=1988758]
+        'Agathia diversiformis Warren, 1894'
+[&squid=ba069f4a8dfe471fff87f8435a88fd42bca8e764b2440643269263f3f6ff2e10,taxon_key=1985177]
+        'Agathia laetata Fabricius, 1794'
+[&squid=3933a0cbee5c718c3146b6a777bc8872205c4669b92e37b39b77e08c18dd843b,taxon_key=1985152]
+        'Agathia visenda Butler, 1880'
+[&squid=5b72ba534d35b8cf0a4e5ce60dc39a4403831e02d94f2b0268600741d5ae3d59,taxon_key=1985191]
+        'Agathia hemithearia Guenée, 1857'
+[&squid=48ec79b7cca0784cc015a5f96a980ed49c32dd61352ac49cd9f0ef76a6e8880d,taxon_key=1985192]
+        'Agathia lycaenaria Kollar, 1844'
+[&squid=ee9aac7ef042a9bf7c7b135ca7ca9e2284553543c6991901d07243269a330f6f,taxon_key=1985167]
+        'Comostola laesaria Walker, 1861'
+[&squid=b94461dc18892865667cb3acc4342ce1f737e8396a68c7d7a8ad9af96e528a67,taxon_key=1987775]
+        'Comostola subtiliaria Bremer, 1864'
+[&squid=00488009cc300a9dc4e75bd6857fe15f4070020b56beca17f6e487e97bf51bf5,taxon_key=1987776]
+        'Comostola enodata Inoue, 1986'
+[&squid=5b5361e1ec26c2d002ed0a9843d94444e939d1d7847b7c8997b7f62e4913bc78,taxon_key=1987786]
+        'Hemistola monotona Inoue, 1983'
+[&squid=15120522bbfe5c0d700801986175046fe4d49c7eebb21dd5b79a663cadc5e51f,taxon_key=1991136]
+        'Hemistola orbiculosa Inoue, 1978'
+[&squid=86a10341dddd21d91194d5a4902556754b79a4740a3e17f9f5e9cc500b895af6,taxon_key=1991178]
+        'Hemistola kezukai Inoue, 1978'
+[&squid=58826dc641f9366f0c49afa38aa322e6d750282e5ebf7cdf7f0cf03b1fa22fc8,taxon_key=1991194]
+        'Pingasa alba Swinhoe, 1891'
+[&squid=84555efcab7f8484d0e5a7363371f9e7e047fe2e41366534997294e5e672c3e9,taxon_key=1982238]
+        'Pingasa secreta Inoue, 1986'
+[&squid=8da168fa4ff6b4148adf4d02868a5902837b4f64bc63237360a6325d9c1214a9,taxon_key=1982203]
+        'Pingasa ruginaria Guenée, 1857'
+[&squid=6c24144a0b433b9b81c2a71495fa4416a6dfe542c3236cbd335acec6ca9330bf,taxon_key=1982267]
+        'Tanaorhinus viridiluteata Walker, 1861'
+[&squid=c9ecb94201dedac8d84340c595adfece43feffce8c0e8049221aa767c443f094,taxon_key=1960184]
+        'Tanaorhinus kina Swinhoe, 1893'
+[&squid=65ac84f150ee29472780da75382672350260033c8fbc9f9456a90d2cc2ca01d2,taxon_key=1960173]
+        'Chlorodontopera discospilata Moore, 1867'
+[&squid=9eed75a9bf730151d74a9965395273f2a448c5698fede8e2d1fa19495c6c53c8,taxon_key=1959667]
+        'Chlorodontopera taiwana Wileman, 1911'
+[&squid=e3428cb57ce45b48387c7cc2d4feb3f7addd6f6a2beabc1db58e1b1e332d316e,taxon_key=1959666]
+        'Herochroma cristata Warren, 1894'
+[&squid=65a98b2f039ff67b9acd23fdf6b44666c522645d0c18af32200043b99fcade74,taxon_key=1955552]
+        'Herochroma ochreipicta Swinhoe, 1905'
+[&squid=48d9d3e27d0f0f2f0c1721dc83a1354d83f5b0eb16a551c0e927d2e9ef0d0ff9,taxon_key=1955586]
+        'Herochroma baibarana Matsumura, 1931'
+[&squid=4792eec12bd0925012292609750a6dcb20fbb4dc24c45f37f6cbd45ac5015d66,taxon_key=1955581]
+        'Dindica wilemani Prout, 1927'
+[&squid=4490c351f68c6bb0836c6a525fe4dca878b9f48746698a42574140c0684d7962,taxon_key=1976483]
+        'Dindica purpurata Bastelberger, 1911'
+[&squid=8a7fd71ff5516328eb5ae4e8d443606075a1f10980d64a4ff6b0513bc1cd522f,taxon_key=1976470]
+        'Dindica polyphaenaria Guenée, 1857'
+[&squid=add0a0fcab025cf7a74421037f4e54e308f51a239a64312537dd57f23caefbe4,taxon_key=1976469]
+        'Dindica taiwana Wileman, 1914'
+[&squid=7d26fba84776440eaab14794e19af70eeb6ed60035841bba885c15c614838082,taxon_key=1976462]
+        'Dindica kishidai Inoue, 1986'
+[&squid=7da4d9b94e0f4987cfd41f9ca7e6b383d62f6f649f45c9fc6299253bf775f3a4,taxon_key=1976463]
+        'Gelasma glaucaria Walker, 1866'
+[&squid=8d327fd333898d017242f4c9c44f954ed1601763100d2c167a7d34eb1e8c3a77,taxon_key=1985348]
+        'Gelasma versicauda Prout, 1920'
+[&squid=8431255bcef05b5c5a5e7361baec78e656c15d335177ec53c0b4dd35f5ca0119,taxon_key=1985308]
+        'Berta zygophyxia Prout, 1912'
+[&squid=d46e060f9714bc641fb1d31f81f7c671846c06650afd8c4673bc6ffb6a8672ee,taxon_key=5146284]
+        'Oenospila flavifusata Walker, 1861'
+[&squid=cb1f48afc26a081ae3c9bdff3381b7398d5197049f487b970d0fc55fe14a579c,taxon_key=1991310]
+        'Pyrrhorachis pyrrhogona Walker, 1866'
+[&squid=e5983ed6d42261fead9e02b900c031d39ef821e650a4c26317b42d6ebd2513e0,taxon_key=1992148]
+        'Plagodis reticulata Warren, 1893'
+[&squid=76bba4a55be44c6a7ac16c36be1a2ffd3aa0ac90db92bb63c2252ff12a09ff0f,taxon_key=1959948]
+        'Biston marginata Shiraki, 1913'
+[&squid=fcf146a4a6dcfb08c77a297f1798d8638829062c286431a760b8a049cf385b7a,taxon_key=1975964]
+        'Cabera purus Butler, 1878'
+[&squid=ad63fc01759513abc802767be8bf6678f7ebb1473b44fd6ceb40228a2e8af6aa,taxon_key=5143708]
+        'Gnophos caenosa Bastelberger, 1911'
+[&squid=c9714d7c2053788380671e3abec557f765acb96def7228c830b88b91da960dca,taxon_key=1969357]
+        'Psyra spurcataria Walker, 1862'
+[&squid=e89c9b96fbfce59585d65d19a2cd9369d8e3b25d07b4afeed3c5a045a79d9c0f,taxon_key=5143315]
+        'Heterarmia pulveraria Wileman, 1912'
+[&squid=aea9f21c422e7fc360fc60df7a645aecc490177d231b612d32fc373a57d131a7,taxon_key=1978007]
+        'Racotis boarmiaria Guenée, 1858'
+[&squid=6500da9b40f3a432982ec4f763ba1f5c08e39c7bdb94fd238de08675e8feb8c5,taxon_key=1976311]
+        'Phthonandria cuneilinearia Wileman, 1911'
+[&squid=396d01befe5a3e8131bdd873f40318d1b76275b5008e6ea6ca75abb40bd9a806,taxon_key=1961057]
+        'Buzura perclara Warren, 1899'
+[&squid=c24715ad384b76c205751d0c03849e3cc21997c575cf47d9dc7c35b82493bf02,taxon_key=1954473]
+        'Euchristophia cumulata Christoph, 1880'
+[&squid=6aa3eb5a00b2a186ea9cef85c8da89f706b0bc2bf3f3f4429d002a5a33124db8,taxon_key=1954496]
+        'Milionia basalis Walker, 1854'
+[&squid=a8dd7f9d140a04d531b432033f78142f51aa8af683cb9d0c63d4b85802e124a1,taxon_key=1968363]
+        'Myrioblephara cilicornaria Püngeler, 1903'
+[&squid=859faf0ddf8fb83ef3b2253621761887886a4d9ff55fc1a2fdfb240f9dba4feb,taxon_key=1980702]
+        'Capasa festivaria Fabricius, 1794'
+[&squid=821d5f17e4bccb9f394c9db4f2f00e8c5d324d27bee053ab4857e0a54af14eb6,taxon_key=1961446]
+        'Paradarisa comparataria Walker, 1866'
+[&squid=f0034e2e5828060d8b7c91b6feb47b839181ac902f3a220d7bdbddf4d65d79cf,taxon_key=1967590]
+        'Ascotis selenaria Schiffermüller, 1775'
+[&squid=239f3fb2d406b9b2106548fc8e86c3aa002d8f972f9b83d4f18f80698b775e4d,taxon_key=1980521]
+        'Parectropis nigrosparsa Wileman & Smith, 1917'
+[&squid=57df533f9c7a293799536ee57afc6f974a3f2261638df5b569b249863eda0bbf,taxon_key=1958027]
+        'Paralygris contorta Warren, 1900'
+[&squid=8e8c6a87dcbf600f773f8920e86110d409fdaf44db4b2ef2c5746264ee5ec9a1,taxon_key=1978479]
+        'Calicha griseoviridata Wileman, 1911'
+[&squid=a365680658b832cadde8e9c5041a546a44f7b0f74b69a2a36e7ae586e4008399,taxon_key=1961172]
+        'Garaeus specularis Moore, 1867'
+[&squid=9231f7124c58de219899f8405c3e59b031a471be3855e1544a247e75c4e25892,taxon_key=1973338]
+        'Jankowskia taiwanensis Sato, 1980'
+[&squid=927a3dad8bb45013d10718e35d42ebfef5919fe50c0874ec9e8ffff2e929cf90,taxon_key=5144499]
+        'Danala lilacina Wileman, 1915'
+[&squid=9581f6efd88d5e5897f1132b6412a524dfa722c227607dc4ff568c9f2a3e3f64,taxon_key=1960571]
+        'Erebomorpha fulguraria Walker, 1860'
+[&squid=c1fc45a1f506db9ed2789856e13d9fadc86de58dbcddb541897e95e9e07dcb12,taxon_key=5149213]
+        'Nothomiza costalis MooreMoore, 1867'
+[&squid=06c6c77832eb1114215d418444b569a2268ef105f67c441c29073ee50bd62a19,taxon_key=1968188]
+        'Lophomachia semialba Walker, 1861'
+[&squid=14c444006b6c7c39d90c6281f007053d80290584df18376c5f63c227d544cb69,taxon_key=1959808]
+        'Discalma normata Walker, 1861'
+[&squid=ecdd71935f79e7189b6620a59c38bae2b321c37e5e5bf97db31d6fc3ad855b96,taxon_key=1980565]
+        'Antitrygodes divisaria Walker, 1861'
+[&squid=a31b7beaf45a7aea1abe036c364bcf784c014494e402042344c0ec4fac345b3a,taxon_key=1972094]
+        'Trichoplites albimaculosa Inoue, 1978'
+[&squid=742b555019d0924b1236a392725b569bea7aaab1e5128f7988b1bd455a985198,taxon_key=1956517]
+        'Trichopterigia pulcherrima Swinhoe, 1893'
+[&squid=4ce71789a1c587b39cb5c496261db915bfe552837c11694ad06ec8cc1ce54842,taxon_key=1970336]
+        'Hydatocapnia gemina Yazaki, 1990'
+[&squid=bb629a8a863b0c5c7ed94791b8eaa23e1f5d85dacd9022291f9b96af7cdb1a83,taxon_key=5734349]
+        'Anisozyga gavissima Walker, 1861'
+[&squid=a3af7597989b80ab0a9011ca76442fe93ee8ef5d9b35dd367046cece9d6e4a15,taxon_key=1990437]
+        'Eilicrinia flava Moore, 1888'
+[&squid=5b4b3247e47071e1ae2b32a3db83e4be79d4add074689028628603b60d874b45,taxon_key=1963733]
+        'Trigonoptila latimarginaria Leech, 1891'
+[&squid=a332a333ebc5a543a4d09020a00edde11afa22bb407e9d5fabc8b8887ac5b6fa,taxon_key=1959614]
+        'Gnamptoloma aventiaria Guenée, 1858'
+[&squid=91245fa4442c5da0b18579d23e8d84622eee87d5206e6963a3e4e527122a44e2,taxon_key=1991794]
+        'Ruttelerona cessaria Walker, 1860'
+[&squid=934d7e005d2c7a05ea3fd4b7daa67a57b8bb451abeef0a83d985a6668a81f5e8,taxon_key=6215957]
+        'Heterocallia truncaria Leech, 1897'
+[&squid=5ca8ac35a151fbe450c90cc4316b1d4510d3982d9cbd94abf67e2cf8f679700e,taxon_key=1976134]
+        'Monocerotesa virgata Wileman, 1912'
+[&squid=78ba0e80817f9252a0aceb25748954efd41a2026e1f7c59e4457044db9210125,taxon_key=1982291]
+        'Psilalcis rantaizana Wileman, 1911'
+[&squid=573f093e47ec977747f098f03a7e4070a482572b687e63c1f8a188d2d217eda8,taxon_key=1970438]
+        'Synegiodes histrionaria Swinhoe, 1892'
+[&squid=7f53a3489f100b5120ee999db5f19ada5999aa3976478583824c1a534ed7b32f,taxon_key=1966368]
+        'Gasterocome pannosaria Moore, 1867'
+[&squid=c977343c4051ccb513e5f9dfabb084fd255716031fab3da754fdcd99dac7b765,taxon_key=1962678]
+        'Atopophysa opulens Prout, 1914'
+[&squid=11b284bce078964732d55ef89988fcb6d6855b82e7bc03139d01b78e63a50dd7,taxon_key=1981457]
+        'Neohipparchus vallata Butler, 1878'
+[&squid=63c122010efa9865c8284b01b7b6dd4b643a47f991a5b4c2821488a6d6444870,taxon_key=1956827]
+        'Cusiala boarmioides Moore, 1888'
+[&squid=9ec9587602773821f7c029772107976f5b8c43d5b87076a215468e4513180399,taxon_key=1955721]
+        'Apithecia viridata Moore, 1868'
+[&squid=df62036c88af112f682c894a75f247df496a22c8888f7f9fb96bf4d8ff37fe77,taxon_key=1982007]
+        'Leptomiza calcearia Walker, 1860'
+[&squid=ed5114c2e154f7f5a3d8c4068daa0a5de75f06e07a89226c340ac20be328185e,taxon_key=1978499]
+        'Naxidia punctata Butler, 1886'
+[&squid=c5c6be0f45dc558322326dca9e6030db4806bf7959006a7f5a9b3bb04e14eea1,taxon_key=1962839]
+        'Zethenia contiguaria Leech, 1897'
+[&squid=9e1dc3e27ab10d7da802eceb844715c7c3a5288d3e9897c4c600cfabc3159597,taxon_key=1958571]
+        'Gonanticlea aversa Swinhoe, 1892'
+[&squid=e84703538441f15ff1a88c49c146802e79597dab5091b7d3416d66ef3a013325,taxon_key=1957460]
+        'Hirasa punctivenaria Leech, 1897'
+[&squid=ebde27bfec66e909670628518191f4c649d30fdb0ae1efcbe6389552d2d8cf0c,taxon_key=1981345]
+        'Organopoda carnearia Walker, 1861'
+[&squid=999f97d79ff6d99a7f9fa86e1e6d17ac7c8bb587a138160d7675e75b818e3b25,taxon_key=1960686]
+        'Abaciscus tristis Butler, 1889'
+[&squid=c96c2e3a5bdf278afa416505173b81e5263d94c3adde57d1a1c5ba7cafafbf95,taxon_key=1986936]
+        'Spaniocentra hollowayi Inoue, 1986'
+[&squid=58ab3a4cea24733a91b1b938a6a8d08440fecf5a9f371b7b05ea0d79d7fb9710,taxon_key=1970136]
+        'Heterostegane subtessellata Walker, 1862'
+[&squid=64c5a00ae5cd45a03ba4190c0d7f7615d4e67d8e2b8b5f1ea6db39eb0206bf1c,taxon_key=1989942]
+        'Heteralex aspersa Warren, 1894'
+[&squid=bc06744c93aff056ecf6b727ff151093436a2c1594b772bc210c57b7b7cc7ec5,taxon_key=1973397]
+        'Lipomelia subusta Warren, 1893'
+[&squid=1a96833cd1c3dfea42056e80309e83de3668e52aa0803ea56c78bb7c9697c103,taxon_key=1988487]
+        'Idiotephria nakatomii Inoue, 1978'
+[&squid=e055f0f12a57de6920f6a70fdcbb48af4cf7911092c96c2aa53f774e32c8193f,taxon_key=1991085]
+        'Chorodna ochreimacula Prout, 1914'
+[&squid=a4edc8cdd647a7542684a055952ae81556fb0eaeed447774be99d8b16e6c2feb,taxon_key=1991945]
+        'Parasynegia suffusa Warren, 1893'
+[&squid=99b7f23ea1d30b9c411ed9eea35cd1776692e6f8380e9d6caed089f77d236ea4,taxon_key=1977306]
+        'Tanaoctenia haliaria Walker, 1861'
+[&squid=2ef8c6430d905b6e2ce0d03000892d3abcb10e41541647629171986c509de98e,taxon_key=6133519]
+        'Hypocometa clauda Warren, 1896'
+[&squid=cc2b031b11df2a92a8c1c73be3288f69d4e7b887f9121c76bdcfb0755fe6b67c,taxon_key=1969621]
+        'Ninodes watanabei Inoue, 1976'
+[&squid=c6cdb970d870f4004842e98d89ca85268762eed71be534eb1a8a47613aed56da,taxon_key=1981937]
+        'Catoria sublavaria Guenée, 1857'
+[&squid=d7c60df73d20f6768fc9ef602c7dd5f3b7e3899c5463fcbc2a67226a0edc218b,taxon_key=1986779]
+        'Cassyma deletaria Moore, 1888'
+[&squid=a412a3cd1f1d4e9e37b644e069ecfa5af8ab26d4a25d9991fecbed638b9b0be5,taxon_key=1987155]
+        'Fascellina chromataria Walker, 1860'
+[&squid=3fd5024697fb9e855972c22853ff3a8441f6b8b306e0a3d099cc8c0fad74d778,taxon_key=1987377]
+        'Blepharoctenucha virescens Butler, 1880'
+[&squid=0538cf6abeeada2ddda1945a60041e5ca7f7679cc5c0649328f8c2444a15c3b2,taxon_key=1985926]
+        'Vindusara moorei Thierry-Mieg, 1899'
+[&squid=29fde064c0825e31a63f8462ac064154b1caa7804a7be2a81e6785a2392ef780,taxon_key=1968698]
+        'Prochasma dentilinea Warren, 1893'
+[&squid=b8e9c749c17e92fda16f426977d2ea0c3b5136cef1351c0da2e04744de19c6ec,taxon_key=5144345]
+        'Pogonopygia nigralbata Warren, 1894'
+[&squid=9155d5658bf1fac7fd8f5c550eeaf92ff10c23b74323bd55bce57b2e267b7fdc,taxon_key=1961162]
+        'Phthonosema invenustaria Leech, 1891'
+[&squid=a378a0f1d9693a0ff4867981d5f6f8d1a7551b6e47b00b5203f7609323bdd8bb,taxon_key=1960851]
+        'Dilophodes elegans Butler, 1878'
+[&squid=9d1e92d236a0d459201b76d5411a148ca95bfe75e61f7f59f556f77eb82a203d,taxon_key=1988306]
+        'Physetobasis dentifascia Hampson, 1895'
+[&squid=ae8664441e96c97b63459186a138f4d59bfcebfe887b731e57628904ea600019,taxon_key=5143300]
+        'Lobogonia aculeata Wileman, 1911'
+[&squid=ed6f5f2da2f54a2bdd71d100d7c86fcb3d60da169e82d750269b36775593f66b,taxon_key=1979562]
+        'Mixochlora vittata Moore, 1867'
+[&squid=6d907449eace57c8680a58131b204c9c4a490f0ff7df2e853d1b61d084d690c2,taxon_key=1961647]
+        'Borbacha pardaria Guenée, 1857'
+[&squid=365225958411febdda86b5f719c7c62df1001c5dd9ca1955801b640beb5cdf57,taxon_key=1968147]
+        'Callerinnys combusta Warren, 1893'
+[&squid=8fb7e577a6d9e87c9850e2099d353afea49ea7a3175c1efee6fb6804054f0636,taxon_key=1959351]
+        'Acolutha pulchella Hampson, 1895'
+[&squid=d1001c2a4d41d5a2f5125e4a17b026892d926a116732b8543a918f1fdc801a35,taxon_key=1959652]
+        'Spilopera divaricata Moore, 1888'
+[&squid=8f02c6ced384756821e8bdc3c984a657ac04285986add05dbb70bb72cb23074d,taxon_key=1960539]
+        'Abraxas submartiaris Wehrli, 1932'
+[&squid=45510ec93cbc206ef2e07fda54a07fc377eeadb1c4965772f2db8c8008053ecc,taxon_key=5734425]
+        'Lomographa percnosticta Yazaki, 1994'
+[&squid=1c9734086c4f415801830770356909fefe1af158d7300763f1d0d2848aad4d40,taxon_key=5734345]
+        'Lophophelma taiwana Wileman, 1912'
+[&squid=48e4a6790ae813bf38d1022a968da4c8d58971b6a8e2ca0fc6b28592d89583ee,taxon_key=5734535]
+        'Dooabia alia Yazaki, 1997'
+[&squid=f489c3d45992be4e1f820945a61a7cf885f6568d4179c9e1a7ae484d3c1adf24,taxon_key=5734512]
+        'Acrodontis mystica Kobayashi, 1998'
+[&squid=70d471ce4b2e97eeb1dc4de5ec81ffb025eb1c6781b4ed540d224e8cfd923401,taxon_key=5734408]
+        'Epilobophora nishizawai Yazaki, 1986'
+[&squid=3b9dfa65a0c7b8cc6a40279ab8c845c8f02de0be2c48e86c9e850d8d89850732,taxon_key=5734395]
+        'Tanaorhinus formosanus Okana, 1959'
+[&squid=0deb8a201bcd075f311aa0f1f2ec22c305b90b64ef70cc4eaa5df753604c3846,taxon_key=5734366]
+        'Heterothera sororcula (Bastelberger, 1909)'
+[&squid=77b019302bb89d26037414d56786c58727f5ded5c0fe42cfa736f1de9c3b9cd9,taxon_key=5734388]
+        'Hypochrosis insularis (Bastelberger, 1909)'
+[&squid=1a28fe872dc722b12e0e5578d2125a7ea011789958758ec14322736449983f9c,taxon_key=5734540]
+  ;
+END;
+
+BEGIN TREES;
+    TREE 1 = (('Hypochrosis baenzigeri Inoue, 1982':170.774996258,((('Pareclipsis serrulata (Wehrli, 1937)':44.95949,(('Nadagara vagaia Walker, 1862':15.038,'Doratoptera virescens Marumo, 1920':15.038)ott583523:29.9214866667,('Paramaxates taiwana Yazaki, 1988':29.9729933333,('Comibaena subdelicata Inoue, 1985':29.9729933333,'Comibaena argentataria Leech, 1897':29.9729933333):0.0)ott583532:14.9864966667):0.0)ott583541:46.89251,'Hypochrosis rufescens (Bulter, 1880)':91.8520033333)mrcaott2645ott10943:32.7993,'Luxiaria obliquata Moore, 1888':124.6513)ott927972:46.1237)mrcaott2ott2645:1482.09190195,(((((((('Chorodna ochreimacula Prout, 1914':53.82304,'Parasynegia suffusa Warren, 1893':53.82304):0.0,('Tanaoctenia haliaria Walker, 1861':53.82304,'Hypocometa clauda Warren, 1896':53.82304):0.0):0.0,(('Ninodes watanabei Inoue, 1976':53.82304,'Catoria sublavaria Guenée, 1857':53.82304):0.0,('Cassyma deletaria Moore, 1888':53.82304,'Fascellina chromataria Walker, 1860':53.82304):0.0):0.0):0.0,((('Blepharoctenucha virescens Butler, 1880':53.82304,'Vindusara moorei Thierry-Mieg, 1899':53.82304):0.0,('Prochasma dentilinea Warren, 1893':53.82304,'Pogonopygia nigralbata Warren, 1894':53.82304):0.0):0.0,(('Phthonosema invenustaria Leech, 1891':53.82304,'Dilophodes elegans Butler, 1878':53.915514562):0.0,('Physetobasis dentifascia Hampson, 1895':53.82304,'Lobogonia aculeata Wileman, 1911':53.82304):0.0):0.0):0.0):0.0,(((('Mixochlora vittata Moore, 1867':53.82304,'Borbacha pardaria Guenée, 1857':53.82304):0.0,('Callerinnys combusta Warren, 1893':53.82304,'Acolutha pulchella Hampson, 1895':53.82304):0.0):0.0,(('Spilopera divaricata Moore, 1888':53.82304,(((((('Gandaritis sinicaria Leech, 1897':46.51581,'Cosmorhoe chalybearia Moore, 1867':46.51581):0.0,'Tyloptera bella Butler, 1878':46.51581):0.0,(('Ziridava kanshireiensis Prout, 1958':46.51581,'Telenomeuta punctimarginaria Leech, 1891':46.51581):0.0,(('Eupithecia tenuisquama Warren, 1896':46.51581,(('Dysstroma calamistrata Moore, 1867':31.01054,'Dysstroma fumata Bastelberger, 1911':31.01054):0.0,('Dysstroma dentifera Warren, 1896':31.01054,'Dysstroma cinereata Moore, 1867':31.01054):0.0)ott113206:15.50527):0.0,(('Xanthorhoe saturata Guenée, 1857':31.01054,'Xanthorhoe mediofascia Wileman, 1915':31.01054)ott353941:15.50527,(('Ecliptopera muscicolor Moore, 1888':23.257905,'Ecliptopera umbrosaria Motschulsky, 1861':23.257905):0.0,(('Ecliptopera rectilinea Warren, 1894':23.257905,'Ecliptopera delecta Butler, 1880':23.257905):0.0,('Ecliptopera dimita Prout, 1938':23.257905,'Ecliptopera benigna Prout, 1914':23.257905):0.0):0.0)ott322516:23.257905):0.0):0.0):0.0):0.0,(((('Eustroma melancholica Butler, 1878':46.51581,('Electrophaes fervidaria Leech, 1897':23.257905,('Electrophaes taiwana Inoue, 1986':23.257905,'Electrophaes zaphenges Prout, 1940':23.257905):0.0)ott761585:23.257905):0.0,(('Melanthia catenaria Moore, 1971':31.01054,'Melanthia procellata Schiffermüller, 1775':31.1030218954)ott238234:15.50527,('Chloroclystis rubroviridis Warren, 1896':23.257905,('Chloroclystis blanda Bastelberger, 1911':23.257905,'Chloroclystis trichophora Hampson, 1895':23.257905):0.0)ott1030083:23.257905):0.0):0.0,((('Collix stellata Warren, 1894':23.257905,'Collix ghosha Walker, 1862':23.257905)ott4270998:23.257905,('Photoscotosia miniosata Walker, 1862':23.257905,'Photoscotosia insularis Bastelberger, 1909':23.257905)ott4277772:23.257905):0.0,('Chartographa fabiolaria Oberthür, 1884':23.257905,'Chartographa convexa Wileman, 1912':23.257905)ott4279947:23.257905):0.0):0.0,((('Asthena undulata Wileman, 1915':46.51581,'Sauris interruptata Moore, 1888':46.51581):0.0,('Gymnoscelis tristrigosa Butler, 1880':46.51581,'Hydrelia bicolorata Moore, 1867':46.51581):0.0):0.0,(('Epilobophora venipicta Wileman, 1914':46.51581,'Evecliptopera decurrens Moore, 1888':46.51581):0.0,'Lobogonodes complicata Butler, 1879':46.51581):0.0):0.0):0.0)ott322514:3.706866,(((('Anisodes absconditaria Walker, 1862':21.75,'Anisodes effeminata Prout, 1914':21.75)ott4269673:21.75,'Zythos avellanea Prout, 1932':43.5):0.0,('Palaeaspilates ocularia Fabricius, 1775':43.5,'Problepsis albidior Warren, 1899':43.5):0.0):0.0,(('Chrysocraspeda sanguinea Warren, 1896':43.5,'Rhodostrophia bisinuata Warren, 1895':43.5924818954):0.0,('Somatina plynusaria Walker, 1862':43.5,(((('Scopula nigropunctata Hufnagel, 1767':40.4,'Scopula ornata Scopoli, 1793':40.4):0.0,('Scopula formosana Prout, 1934':40.4,'Scopula mecysma Swinhoe, 1894':40.4):0.0)ott679080:-7.775,('Idaea remissa Wileman, 1911':12.3073,'Idaea sugillata Bastelberger, 1911':12.3073)ott846945:20.3177)mrcaott10014ott10132:10.875,('Timandra convectaria Walker, 1861':2.8073,'Timandra extremaria Walker, 1861':2.8073)ott353929:40.6927):0.0):0.0):0.0)mrcaott10014ott11170:6.722676)mrcaott7216ott10014:3.60035666667,(('Lomographa anoxys Wehrli, 1936':26.91152,'Lomographa margarita Moore, 1867':26.91152):0.0,('Lomographa inamata Walker, 1861':26.91152,('Lomographa marginata Wileman, 1914':26.91152,'Lomographa claripennis Inoue, 1977':26.91152):0.0):0.0)ott907256:26.91152):0.0):0.0,((('Ozola defectata Inoue, 1971':35.8820266666,('Eumelea ludovicata Guenée, 1858':35.8820266666,'Derambila satelliata Walker, 1866':35.8820266666):0.0)ott888442:17.9410133333,('Thinopteryx crocoptera Kollar, 1844':26.91152,'Thinopteryx nebulosa Butler, 1883':26.91152)ott54422:26.91152):0.0,((('Arichanna amoena Bastelberger, 1911':35.8820266667,('Arichanna sinica Wehrli, 1933':35.8820266667,'Arichanna picaria Wileman, 1910':35.8820266667):0.0):0.0,(('Arichanna fumigata Bastelberger, 1909':35.8820266667,'Arichanna albomacularia Leech, 1915':35.8820266667):0.0,('Arichanna pryeraria Leech, 1891':35.8820266667,'Arichanna postflava Wileman, 1914':35.8820266667):0.0):0.0)ott61604:17.9410133333,((('Alcis rimosaria Wileman, 1911':26.91152,'Alcis ochrolaria Bastelberger, 1909':26.91152):0.0,('Alcis maculata Staudinger, 1892':26.91152,'Alcis admissaria Guenée, 1858':26.91152):0.0):0.0,(('Alcis postlurida Inoue, 1978':26.91152,'Alcis semiusta Bastelberger, 1909':26.91152):0.0,(('Alcis nubeculosa Bastelberger, 1909':26.91152,'Alcis scortea Bastelberger, 1909':26.91152):0.0,('Alcis extinctaria Eversmann, 1851':26.91152,'Alcis picata Butler, 1881':26.91152):0.0):0.0):0.0)ott973775:26.91152):0.0):0.0):0.0):0.0,((((('Hyposidra aquilaria Walker, 1862':26.91152,('Hyposidra talaca Walker, 1860':26.91152,'Hyposidra infixaria Walker, 1860':26.91152):0.0)ott488054:26.91152,(('Semiothisa perfusaria Walker, 1866':26.91152,'Semiothisa intermediaria Leech, 1897':26.91152):0.0,('Semiothisa emersaria Walker, 1861':26.91152,('Semiothisa pluviata Fabricius, 1795':26.91152,'Semiothisa inchoata Walker, 1861':26.91152):0.0):0.0)ott765126:26.91152):0.0,((('Cleora alienaria Walker, 1860':26.91152,'Cleora leucophaea Butler, 1878':26.91152):0.0,('Cleora repulsaria Walker, 1860':26.91152,('Cleora contiguata Moore, 1867':26.91152,'Cleora fraterna Moore, 1888':26.91152):0.0):0.0)ott711657:26.91152,('Serraca punctinalis Scopoli, 1763':26.91152,'Hypomecis oblivia Prout, 1925':26.91152)ott830519:26.91152):0.0):0.0,((('Odontopera insulata Bastelberger, 1909':35.8820266667,('Odontopera bilinearia Swinhoe, 1889':35.8820266667,'Odontopera albiguttulata Bastelberger, 1909':35.8820266667):0.0)ott296945:17.9410133333,('Xandrames dholaria Moore, 1868':26.91152,'Xandrames latiferaria Walker, 1860':26.91152)ott464120:26.91152):0.0,(('Ectropis excellens Butler, 1884':26.91152,('Ectropis bhurmitra Walker, 1860':26.91152,'Ectropis arizanensis Wileman, 1915':26.91152):0.0)ott489853:26.91152,(('Abraxas formosilluminata Inoue, 1984':26.91152,('Abraxas cupreilluminata Inoue, 1984':26.91152,'Abraxas adilluminata Inoue, 1984':26.91152):0.0):0.0,(('Abraxas consputa Bastelberger, 1909':26.91152,'Abraxas taiwanensis Inoue, 1984':26.91152):0.0,('Abraxas persimplex Inoue, 1984':26.91152,'Abraxas placata Inoue, 1984':26.91152):0.0):0.0)ott531546:26.91152):0.0):0.0):0.0,((((('Luxiaria mitorrhaphes Prout, 1925':26.91152,'Luxiaria amasa Butler, 1878':26.91152):0.0,('Luxiaria costinota Inoue, 1978':26.91152,'Luxiaria postvittata Walker, 1861':26.91152):0.0)ott1014053:26.91152,((('Ourapteryx variolaria Inoue, 1985':26.91152,Ourapteryx_yerburii:26.91152):0.0,('Ourapteryx sciticaudaria Walker, 1862':26.91152,'Ourapteryx similaria Leech, 1897':26.91152):0.0):0.0,((('Ourapteryx clara Butler, 1880':26.91152,'Ourapteryx caecata Bastelberger, 1911':26.91152):0.0,('Ourapteryx pallidula Inoue, 1985':26.91152,'Ourapteryx inspersa Wileman, 1912':26.91152):0.0):0.0,(('Ourapteryx ramosa Wileman, 1910':26.91152,'Ourapteryx monticola Inoue, 1986':26.91152):0.0,('Ourapteryx taiwana Wileman, 1910':26.91152,'Ourapteryx changi Inoue, 1985':26.91152):0.0):0.0):0.0)ott625955:26.91152):0.0,(('Synegia estherodes Sato, 1990':26.91152,'Synegia masuii Sato, 1990':26.91152)ott990567:26.91152,('Opisthograptis punctilineata Wileman, 1910':26.91152,'Opisthograptis moelleri Warren, 1893':26.91152)ott80670:26.91152):0.0):0.0,((('Corymica spatiosa Prout, 1925':26.91152,('Corymica pryeri Butler, 1878':26.91152,'Corymica arnearia Walker, 1860':26.91152):0.0)ott4271086:26.91152,('Amblychia angeronaria Guenée, 1858':26.91152,('Elphos moltrechti Bastelberger, 1909':26.91152,'Elphos sauteri Prout, 1914':26.91152):0.0)ott4275431:26.91152):0.0,((('Menophra anaplagiata Sato, 1984':26.91152,'Menophra nakajimai Sato, 1984':26.91152):0.0,('Menophra taiwana Wileman, 1910':26.91152,'Menophra humeraria Moore, 1867':26.91152):0.0)ott5340627:26.91152,('Ophthalmitis cordularia Swinhoe, 1893':26.91152,'Ophthalmitis herbidaria Guenée, 1858':26.91152)ott4274517:26.91152):0.0):0.0):0.0):0.0):0.0):0.0,((((((('Loxaspilates montuosa Inoue, 1983':26.91152,'Loxaspilates biformata Inoue, 1983':26.91152)ott4275066:26.91152,('Chlorochaeta delicatior Warren, 1897':26.91152,('Chlorochaeta procumbaria Pryer, 1877':26.91152,'Chlorochaeta cassidara Guenée, 1857':26.91152):0.0)ott4276276:26.91152):0.0,(('Krananda oliveomarginata Swinhoe, 1894':26.91152,'Krananda semihyalina Moore, 1867':26.91152)ott4276391:26.91152,('Obeidia gigantearia Leech, 1897':35.9745012287,('Obeidia tigrata Guenée, 1857':35.8820266667,'Obeidia lucifera Swinhoe, 1893':35.9745012287):0.0)ott4277836:17.9410133333):0.0):0.0,((('Discoglypha hampsoni Swinhoe, 1892':26.91152,'Discoglypha locupletata Prout, 1917':26.91152)ott4278730:26.91152,('Heterolocha biplagiata Bastelberger, 1909':26.91152,('Heterolocha coccinea Inoue, 1976':26.91152,'Heterolocha lilacina Bastelberger, 1909':26.91152):0.0)ott4279192:26.91152):0.0,(('Pseudomiza flava Moore, 1888':26.91152,'Pseudomiza aurata Wileman, 1915':26.91152)ott4280312:26.91152,(('Percnia cordiforma Inoue, 1978':26.91152,'Percnia giraffata Guenée, 1858':26.91152):0.0,('Percnia longitermen Prout, 1914':26.91152,'Percnia luridaria Leech, 1897':26.91152):0.0)ott4281547:26.91152):0.0):0.0):0.0,(((('Terpna iterans Prout, 1926':26.91152,'Terpna subtrita Prout, 1914':26.91152)ott4281597:26.91152,('Medasina parvalbidaria Inoue, 1978':26.91152,'Medasina creataria Guenée, 1858':26.91152)ott4282463:26.91152):0.0,((('Sarcinodes yeni Sommerer, 1996':21.35,'Sarcinodes carnearia Guenée, 1857':21.35)ott403613:21.35,(((('Oenospila flavifusata Walker, 1861':42.7,'Pyrrhorachis pyrrhogona Walker, 1866':42.7):0.0,(((('Thalassodes antiquadraria Inoue, 1976':21.35,'Thalassodes proquadraria Inoue, 1976':21.35):0.0,('Thalassodes immissaria Walker, 1861':21.35,'Thalassodes subquadraria Inoue, 1976':21.35):0.0)ott627238:21.35,('Timandromorpha discolor Warren, 1896':21.35,'Timandromorpha enervata Inoue, 1944':21.35)ott321140:21.35):0.0,((('Agathia visenda Butler, 1880':21.35,'Agathia hemithearia Guenée, 1857':21.35):0.0,('Agathia lycaenaria Kollar, 1844':21.35,('Agathia diversiformis Warren, 1894':21.35,'Agathia laetata Fabricius, 1794':21.35):0.0):0.0)ott531550:21.35,('Comostola enodata Inoue, 1986':21.35,('Comostola laesaria Walker, 1861':21.35,'Comostola subtiliaria Bremer, 1864':21.35):0.0)ott113214:21.35):0.0):0.0):0.0,(((('Hemistola kezukai Inoue, 1978':21.35,('Hemistola monotona Inoue, 1983':21.35,'Hemistola orbiculosa Inoue, 1978':21.35):0.0)ott238241:21.35,('Pingasa ruginaria Guenée, 1857':28.5591456731,('Pingasa alba Swinhoe, 1891':28.4666666667,'Pingasa secreta Inoue, 1986':28.4666666667):0.0)ott9020:14.2333333333):0.0,(('Tanaorhinus viridiluteata Walker, 1861':21.35,'Tanaorhinus kina Swinhoe, 1893':21.35)ott872068:21.35,('Chlorodontopera discospilata Moore, 1867':21.35,'Chlorodontopera taiwana Wileman, 1911':21.35)ott4276062:21.35):0.0):0.0,((('Herochroma baibarana Matsumura, 1931':21.35,('Herochroma cristata Warren, 1894':21.35,'Herochroma ochreipicta Swinhoe, 1905':21.35):0.0)ott4278995:21.35,(('Dindica polyphaenaria Guenée, 1857':21.35,'Dindica taiwana Wileman, 1914':21.35):0.0,('Dindica kishidai Inoue, 1986':21.35,('Dindica wilemani Prout, 1927':21.35,'Dindica purpurata Bastelberger, 1911':21.35):0.0):0.0)ott4279565:21.35):0.0,(('Gelasma glaucaria Walker, 1866':21.35,'Gelasma versicauda Prout, 1920':21.35)ott4279824:21.35,'Berta zygophyxia Prout, 1912':42.7):0.0):0.0):0.0)ott796000:-12.2,('Plagodis reticulata Warren, 1893':24.4,'Biston marginata Shiraki, 1913':24.4)mrcaott53204ott104450:6.1)mrcaott7111ott53204:12.2):11.1230355556,'Cabera purus Butler, 1878':53.82304):0.0):0.0,(('Gnophos caenosa Bastelberger, 1911':53.82304,'Psyra spurcataria Walker, 1862':53.82304):0.0,('Heterarmia pulveraria Wileman, 1912':53.82304,'Racotis boarmiaria Guenée, 1858':53.82304):0.0):0.0):0.0):0.0,(((('Phthonandria cuneilinearia Wileman, 1911':53.82304,'Buzura perclara Warren, 1899':53.82304):0.0,('Euchristophia cumulata Christoph, 1880':53.82304,'Milionia basalis Walker, 1854':53.82304):0.0):0.0,(('Myrioblephara cilicornaria Püngeler, 1903':53.82304,'Capasa festivaria Fabricius, 1794':53.82304):0.0,('Paradarisa comparataria Walker, 1866':53.82304,'Ascotis selenaria Schiffermüller, 1775':53.915514562):0.0):0.0):0.0,((('Parectropis nigrosparsa Wileman & Smith, 1917':53.82304,'Paralygris contorta Warren, 1900':53.82304):0.0,('Calicha griseoviridata Wileman, 1911':53.82304,'Garaeus specularis Moore, 1867':53.82304):0.0):0.0,(('Jankowskia taiwanensis Sato, 1980':53.82304,'Danala lilacina Wileman, 1915':53.82304):0.0,('Erebomorpha fulguraria Walker, 1860':53.82304,'Nothomiza costalis MooreMoore, 1867':53.82304):0.0):0.0):0.0):0.0):0.0,((((('Lophomachia semialba Walker, 1861':53.82304,'Discalma normata Walker, 1861':53.82304):0.0,('Antitrygodes divisaria Walker, 1861':53.82304,'Trichoplites albimaculosa Inoue, 1978':53.82304):0.0):0.0,(('Trichopterigia pulcherrima Swinhoe, 1893':53.82304,'Hydatocapnia gemina Yazaki, 1990':53.82304):0.0,('Anisozyga gavissima Walker, 1861':53.82304,'Eilicrinia flava Moore, 1888':53.82304):0.0):0.0):0.0,((('Trigonoptila latimarginaria Leech, 1891':53.82304,'Gnamptoloma aventiaria Guenée, 1858':53.82304):0.0,('Ruttelerona cessaria Walker, 1860':53.82304,'Heterocallia truncaria Leech, 1897':53.82304):0.0):0.0,(('Monocerotesa virgata Wileman, 1912':53.82304,'Psilalcis rantaizana Wileman, 1911':53.82304):0.0,('Synegiodes histrionaria Swinhoe, 1892':53.82304,'Gasterocome pannosaria Moore, 1867':53.82304):0.0):0.0):0.0):0.0,(((('Atopophysa opulens Prout, 1914':53.82304,'Neohipparchus vallata Butler, 1878':53.82304):0.0,('Cusiala boarmioides Moore, 1888':53.82304,'Apithecia viridata Moore, 1868':53.82304):0.0):0.0,(('Leptomiza calcearia Walker, 1860':53.82304,'Naxidia punctata Butler, 1886':53.82304):0.0,('Zethenia contiguaria Leech, 1897':53.82304,'Gonanticlea aversa Swinhoe, 1892':53.82304):0.0):0.0):0.0,((('Hirasa punctivenaria Leech, 1897':53.82304,'Organopoda carnearia Walker, 1861':53.82304):0.0,('Abaciscus tristis Butler, 1889':53.82304,'Spaniocentra hollowayi Inoue, 1986':53.82304):0.0):0.0,(('Heterostegane subtessellata Walker, 1862':53.82304,'Heteralex aspersa Warren, 1894':53.82304):0.0,('Lipomelia subusta Warren, 1893':53.82304,'Idiotephria nakatomii Inoue, 1978':53.82304):0.0):0.0):0.0):0.0):0.0):0.0)ott968124:615.898622365,((('Abraxas submartiaris Wehrli, 1932':490.143350174,'Lomographa percnosticta Yazaki, 1994':490.002289831)mrcaott343ott420:-24.49661,'Lophophelma taiwana Wileman, 1912':465.50335)mrcaott343ott8732:24.5,('Dooabia alia Yazaki, 1997':398.705944655,('Acrodontis mystica Kobayashi, 1998':162.58375,('Heterothera sororcula (Bastelberger, 1909)':92.905,('Epilobophora nishizawai Yazaki, 1986':92.905,'Tanaorhinus formosanus Okana, 1959':92.905):0.0)ott763990:69.67875)ott815451:236.121285556)mrcaott948ott5504:91.29504)mrcaott343ott948:179.667396753)ott632179:74.334075121,'Hypochrosis insularis (Bastelberger, 1909)':744.122763699)ott189832:908.731211712)ott304358:2594.64406249;
+END;
+
