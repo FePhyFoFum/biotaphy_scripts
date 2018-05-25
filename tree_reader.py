@@ -80,13 +80,44 @@ def read_tree_string(instr):
             curnode = newnode
             curnode.istip = True
             name = ""
-            while True:
-                if nextchar == ',' or nextchar == ')' or nextchar == ':' \
-                    or nextchar == ';' or nextchar == '[':
-                    break
-                name += nextchar
+            squote = False
+            dquote = False
+            if nextchar == "'":
+                squote = True
+                name += "'"
                 index += 1
                 nextchar = instr[index]
+            elif nextchar == "\"":
+                dquote = True
+                name += "\""
+                index += 1
+                nextchar = instr[index]
+            if squote == False and dquote == False:
+                while True:
+                    if nextchar == ',' or nextchar == ')' or nextchar == ':' \
+                        or nextchar == ';' or nextchar == '[':
+                        break
+                    name += nextchar
+                    index += 1
+                    nextchar = instr[index]
+            elif squote == True:
+                while True:
+                    if nextchar == "'":
+                        name += "'"
+                        index += 1
+                        break
+                    name += nextchar
+                    index += 1
+                    nextchar = instr[index]
+            elif dquote == True:
+                while True:
+                    if nextchar == "\"":
+                        name += "\""
+                        index += 1
+                        break
+                    name += nextchar
+                    index += 1
+                    nextchar = instr[index]
             curnode.label = name
             index -= 1
         if index < len(instr) - 1:
@@ -103,6 +134,6 @@ def read_tree_file_iter(inf):
 
 
 if __name__ == "__main__":
-    s = "(a:3,(b:1e-05,c:1.3)int_|_and_33.5:5)root;"
+    s = "('a,daflkdasfljk\"dsa\"':3,(b:1e-05,c:1.3)int_|_and_33.5:5)root;"
     n2 = read_tree_string(s)
     print n2.get_newick_repr(True)
