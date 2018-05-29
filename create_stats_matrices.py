@@ -26,16 +26,31 @@ def get_site_statistics(tree, pam, squid_dict):
     # ..............
     pd_stat = np.zeros((num_rows, 1), dtype=np.float)
     
+    ndsdict = {}
+    for i in tree.leaves():
+       ndsdict[i.label] = i
+    
+    
     for i in xrange(num_rows):
         # Get the species names that are present at this site
         present_squids = [
            squid_headers[j] for j in xrange(num_cols) if int(pam.data[i,j])]
         # Get the species names for the present squids
-        sp_tips = [squid_dict[squid] for squid in present_squids]
+        sp_tips = []
+        for squid in present_squids:
+           try:
+              if squid_dict.has_key(squid):
+                 sp_tips.append(ndsdict[squid_dict[squid]])
+           except:
+              print('Could not find: {}'.format(squid_dict[squid]))
+        
         
         # Site statistics
         # ..............
-        pd_stat[i,0] = pd(tree, sp_tips)
+        if len(sp_tips) > 0:
+           pd_stat[i,0] = pd(tree, sp_tips)
+        else:
+           pd_stat[i,0] = 0.0
         
         # TODO: Add any additional statistics
    
@@ -77,8 +92,8 @@ if __name__ == '__main__':
     #    this is done with dendropy.  I just didn't want to add any dependencies
     tree_newick, squid_dict = munge_lm_tree(args.tree_filename)
     
-    print tree_newick
-    print len(squid_dict.keys())
+    #print tree_newick
+    #print len(squid_dict.keys())
     
     # Read the newick tree
     tree = read_tree_string(tree_newick)
@@ -93,6 +108,8 @@ if __name__ == '__main__':
     if args.sites_filename is not None:
        with open(args.sites_filename, 'w') as outF:
           site_stats.writeCSV(outF)
+    else:
+       print site_stats.data
     
     if args.species_filename is not None:
        raise Exception, 'No species stats are currently implemented'
