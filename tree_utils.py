@@ -120,4 +120,3 @@ def set_heights(tree):
         if i != tree:
             i.height = abs(round(i.parent.height - i.length,5)) #weird rounding thing on some machines
 
-
