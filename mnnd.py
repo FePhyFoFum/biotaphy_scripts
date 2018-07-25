@@ -22,7 +22,6 @@ def mnnd(tree,tips):
     dists = []
     for i in distsd:
         dists.append(min(distsd[i]))
-    print dists
     measure = np.mean(dists)
     return measure
 
