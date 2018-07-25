@@ -7,7 +7,10 @@ import numpy as np
 
 from lm_munge import munge_lm_tree
 from matrix import Matrix
+from mnnd import mnnd
+from mpd import mpd
 from pd import pd
+from spd import spd
 from tree_reader import read_tree_string
 
 # .............................................................................
@@ -25,6 +28,9 @@ def get_site_statistics(tree, pam, squid_dict):
     # Stat arrays
     # ..............
     pd_stat = np.zeros((num_rows, 1), dtype=np.float)
+    spd_stat = np.zeros((num_rows, 1), dtype=np.float)
+    mnnd_stat = np.zeros((num_rows, 1), dtype=np.float)
+    mpd_stat = np.zeros((num_rows, 1), dtype=np.float)
     
     ndsdict = {}
     for i in tree.leaves():
@@ -49,16 +55,22 @@ def get_site_statistics(tree, pam, squid_dict):
         # ..............
         if len(sp_tips) > 0:
            pd_stat[i,0] = pd(tree, sp_tips)
+           spd_stat[i,0] = spd(tree, sp_tips)
+           mnnd_stat[i,0] = mnnd(tree, sp_tips)
+           mpd_stat[i,0] = mpd(tree, sp_tips)
         else:
            pd_stat[i,0] = 0.0
+           spd_stat[i,0] = 0.0
+           mnnd_stat[i,0] = 0.0
+           mpd_stat[i,0] = 0.0
         
         # TODO: Add any additional statistics
    
     # Return statistics
     # Site statistics np.arrays
-    site_stats = [pd_stat]
+    site_stats = [pd_stat, spd_stat, mnnd_stat, mpd_stat]
     # Site statistic headers
-    stat_headers = ['PD']
+    stat_headers = ['PD', 'Sum Phylo Distances', 'Mean nearest neighbor dist', 'Mean phylo distance']
     return Matrix(np.concatenate(site_stats, axis=1),
                   headers={'0' : pam.getRowHeaders(),
                            '1' : stat_headers})
